@@ -8,7 +8,7 @@ html {
     background-color: #fff;
     position: relative;
     margin: 50px auto;
-    padding: 20px 50px;   
+    padding: 20px 50px;
 }
 
 .bold {
@@ -31,7 +31,7 @@ html {
 /* imagem destaque */
 .featured-image {
     text-align: center;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 /* biografia */
@@ -40,4 +40,36 @@ html {
     margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
+}
+
+/* Quotes */
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    height: 30px;
+}
+
+/* Imagem bold */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
 }
